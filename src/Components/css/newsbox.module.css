@@ -1,0 +1,12 @@
+.newsbox{
+  display: flex;
+  flex-direction: column ;
+  margin-top: 20px;
+}
+
+.firstRow{
+  display: flex;
+  flex-direction: row ;
+  column-gap: 10px;
+  margin-bottom: 100px;
+}

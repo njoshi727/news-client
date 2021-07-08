@@ -1,0 +1,39 @@
+.slider{
+    position: relative;
+    width: 65vw;
+}
+
+.leftBtn{
+    position: absolute;
+    left: 4%;
+    top: 45%;
+    color: rgba(70, 67, 67, 0.842);
+    font-size: 2.5rem;
+}
+
+.rightBtn{
+    position: absolute;
+    left: 89%;
+    top: 45%;
+    color: rgba(70, 67, 67, 0.842);
+    font-size: 2.5rem;
+}
+
+.image{
+    height: 87vh;
+    width: 98%;
+    object-fit: fill;
+}
+
+.titleBox{
+    position : absolute;
+    top : 80%;
+    left: 12.5%;
+    text-decoration: none;
+    text-align: center;
+    color: antiquewhite;
+    font-style: bold;
+    font-size: 1.3rem;
+    width: 75%;
+}
+    
