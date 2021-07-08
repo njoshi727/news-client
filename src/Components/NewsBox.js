@@ -15,10 +15,8 @@ function NewsBox(props) {
         
         //const response = await axios.get(searchURL);
         await axios.post("https://news-api-nikhil.herokuapp.com/searchAPI/", {
-          data: {
             url: searchURL,
             parameter: props.parameter,
-          },
         });
 
         const response = await axios.get(
